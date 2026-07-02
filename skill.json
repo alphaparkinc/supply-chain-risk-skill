@@ -1,0 +1,48 @@
+{
+  "name": "supply-chain-risk-skill",
+  "version": "1.0.0",
+  "description": "Analyze supply chain disruption risk for e-commerce operations. Scores supplier reliability, lead time variance, geographic concentration, and single-source dependency.",
+  "author": "alphaparkinc",
+  "category": "operations",
+  "tags": [
+    "supply-chain",
+    "risk",
+    "operations",
+    "procurement",
+    "resilience"
+  ],
+  "inputs": {
+    "suppliers": {
+      "type": "array",
+      "description": "List of supplier objects with name, country, lead_time_days, reliability_score, and category."
+    },
+    "inventory_days": {
+      "type": "number",
+      "description": "Current days of inventory on hand."
+    },
+    "single_source_categories": {
+      "type": "array",
+      "description": "Product categories sourced from a single supplier."
+    }
+  },
+  "outputs": {
+    "risk_score": {
+      "type": "number",
+      "description": "Overall supply chain risk score 0-100 (lower is better)."
+    },
+    "risk_level": {
+      "type": "string",
+      "description": "Risk classification: Low, Moderate, High, Critical."
+    },
+    "risk_factors": {
+      "type": "array",
+      "description": "Individual risk factors with scores and recommendations."
+    },
+    "recommendations": {
+      "type": "array",
+      "description": "Prioritized action items to reduce supply chain risk."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
