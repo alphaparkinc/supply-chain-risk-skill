@@ -1,8 +1,8 @@
 {
   "name": "supply-chain-risk-skill",
   "version": "1.0.0",
-  "description": "Analyze supply chain disruption risk for e-commerce operations. Scores supplier reliability, lead time variance, geographic concentration, and single-source dependency.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Analyze supply chain disruption risk for e-commerce operations. Scores supplier reliability, lead time variance, geographic concentration, and single-source dependency.",
+  "author": "genpark",
   "category": "operations",
   "tags": [
     "supply-chain",
