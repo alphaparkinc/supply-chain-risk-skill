@@ -1,5 +1,5 @@
 {
-  "name": "supply-chain-risk-skill",
+  "name": "genpark-supply-chain-risk-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Analyze supply chain disruption risk for e-commerce operations. Scores supplier reliability, lead time variance, geographic concentration, and single-source dependency.",
   "author": "genpark",
