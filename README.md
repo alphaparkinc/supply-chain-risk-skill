@@ -1,4 +1,4 @@
-# supply-chain-risk-skill
+# genpark-supply-chain-risk-skill
 
 > **GenPark AI Agent Skill** — Analyze supply chain disruption risk for e-commerce operations.
 
